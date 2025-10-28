@@ -94,7 +94,7 @@ const Contact = () => {
 
       {/* Hero */}
       <section className="relative w-full h-[350px] md:h-[400px]">
-        <img src="./image1.jpg" alt="" className="w-full h-[350px] md:h-[400px] object-cover relative"/>
+        <img src="/image1.jpg" alt="" className="w-full h-[350px] md:h-[400px] object-cover relative"/>
         <div className="container-max px-4 absolute z-10 bg-black/60 w-full h-full flex items-center justify-center top-0">
           <AnimatedSection>
             <div className="text-center text-white max-w-3xl mx-auto">
