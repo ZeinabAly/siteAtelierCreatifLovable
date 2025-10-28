@@ -94,9 +94,12 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden absolute z-100 left-0 right-0 top-0 w-[70%] pt-10 h-screen bg-background border-t border-border shadow-lg animate-slide-in">
             {/* INSERTION DU LOGO */}
-            <div className="mb-2 flex justify-center">
+            <div className="mb-10 flex justify-center">
               <Link to="/" className="flex items-center gap-2 group">
-                <img src="./public/logo.png" className="w-[150px] m-0 bg-red-500 rounded-full" alt="logo" />                
+                <div className="bg-gradient-primary p-2 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                  <Palette className="w-6 h-6 text-white" />
+                </div>
+                <span className="text-2xl font-bold text-gradient">Atelier Créatif</span>
               </Link>
             </div>
             {/* FIN LOGO */}
