@@ -51,7 +51,7 @@ const Home = () => {
 
       {/* Hero Section */}
       <section className="relative">
-        <img src="/image1.jpg" alt="" className="w-full h-[450px] md:h-[550px] object-cover relative"/>
+        <img src="image1.jpg" alt="" className="w-full h-[450px] md:h-[550px] object-cover relative"/>
         <div className="container-max px-4 pt-10 absolute z-10 bg-black/70 w-full h-full flex items-center top-0">
           <div className="text-center max-w-4xl mx-auto">
             <AnimatedSection>
